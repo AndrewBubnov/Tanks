@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    border: 1px solid moccasin;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    width: 7px;
+    height: 7px;
+}
+.green{
+    width: 7px;
+    height: 7px;
+    background-color: #008000;
+}
+.red{
+    width: 5px;
+    height: 5px;
+    background-color: #ff0000;
+}
